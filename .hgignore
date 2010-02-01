@@ -1,0 +1,17 @@
+syntax: glob
+.*.swp
+.idea
+.DS_Store
+nbproject/
+test/
+coverage/
+*.pidaproject
+*~
+*.etmp
+*.orig
+.loadpath
+.project
+Thumbs.db
+*.sqs
+data/memori.xml
+settings.yml
