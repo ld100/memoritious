@@ -1,0 +1,16 @@
+h1. Memoritious
+=============
+
+Simple console tool written in Ruby for transfering bookmarks from http://memori.ru to http://del.icio.us
+
+To use it :
+
+# Run "rake setup" and follow its instructions
+# Edit your memori and delicious logins and password in settings.yml file
+# Run "rake run"
+# Smile!
+  
+License
+-------
+
+MIT License, under the same terms as Ruby.

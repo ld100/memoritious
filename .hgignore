@@ -15,3 +15,5 @@ Thumbs.db
 *.sqs
 data/memori.xml
 settings.yml
+vendor/
+bin/

@@ -1,4 +1,6 @@
 require 'rake'
+
+require "#{File.dirname(__FILE__)}/vendor/gems/environment"
 Dir[File.dirname(__FILE__) + '/lib/*.rb'].each {|file| require file }
 
 desc 'Default: setup application'
@@ -6,10 +8,12 @@ task :default => :setup
 
 desc "Setup the application"
 task :setup => :install_settings do
-
+  sh "sudo gem install bundler"
+  sh "gem bundle"
 end
 
 desc "Create settings file from example"
+task :install_settings do
   unless File.exists? File.join("settings.yml")
     puts "Where's your settings.yml, dude?"
     if File.exist? File.join("settings.yml.example")
