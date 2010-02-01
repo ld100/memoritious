@@ -12,7 +12,7 @@ To use it :
 
 h2. Notes
 
-It might now work on Windows without cygwin, don't even try.
+It might not work on Windows without cygwin, don't even try.
 
 License
 -------
